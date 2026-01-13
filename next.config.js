@@ -1,12 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
+  // Required for GitHub Pages (Project Pages)
+  basePath: "/portfolio-website",
+
+  // CRITICAL: ensures index.html generation
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production"
-    ? "/portfolio-website"
-    : "",
 };
 
 module.exports = nextConfig;
