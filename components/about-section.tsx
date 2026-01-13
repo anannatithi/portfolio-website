@@ -34,6 +34,8 @@ export function AboutSection() {
   return (
     <section id="about" className="py-24 bg-card">
       <div className="container mx-auto px-6">
+
+        {/* About Text */}
         <div className="grid lg:grid-cols-3 gap-12 mb-16">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-4 mb-4">
@@ -49,9 +51,12 @@ export function AboutSection() {
               clean code principles, and collaborating with cross-functional stakeholders.
             </p>
           </div>
+        </div>
 
+        {/* Experience & Skills */}
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* Experience */}
+
+          {/* Experience Section */}
           <div>
             <h3 className="text-xl font-semibold text-foreground mb-8">Experience</h3>
             <div className="space-y-8">
@@ -69,6 +74,7 @@ export function AboutSection() {
               ))}
             </div>
 
+            {/* Education */}
             <div className="mt-12">
               <h3 className="text-xl font-semibold text-foreground mb-4">Education</h3>
               <div className="pl-6 border-l-2 border-border">
@@ -78,6 +84,7 @@ export function AboutSection() {
                 <p className="text-sm text-muted-foreground">CGPA: 3.32 / 4.00</p>
               </div>
 
+              {/* Certifications */}
               <div className="mt-8">
                 <h3 className="text-xl font-semibold text-foreground mb-4">Certifications</h3>
                 <ul className="space-y-2 text-muted-foreground">
@@ -98,7 +105,7 @@ export function AboutSection() {
             </div>
           </div>
 
-          {/* Skills */}
+          {/* Skills Section */}
           <div>
             <h3 className="text-xl font-semibold text-foreground mb-8">Technical Skills</h3>
             <div className="space-y-6">
@@ -116,8 +123,9 @@ export function AboutSection() {
               ))}
             </div>
           </div>
-        </div>
-      </div>
+
+        </div> {/* End of Experience & Skills grid */}
+      </div> {/* End of container */}
     </section>
   )
 }
