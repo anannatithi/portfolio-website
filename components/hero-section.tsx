@@ -14,7 +14,7 @@ export function HeroSection() {
                 Musfika Rahman Ananna
               </h1>
               <h2 className="text-xl md:text-2xl text-muted-foreground">
-                Senior Flutter Developer | FinTech Mobile App Engineer
+                Software Engineer
               </h2>
             </div>
 
@@ -70,13 +70,16 @@ export function HeroSection() {
           </div>
 
           <div className="relative hidden lg:block">
-            <div className="w-80 h-80 mx-auto relative">
-              <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl" />
-              <div className="relative w-full h-full rounded-full bg-secondary border-2 border-primary/30 flex items-center justify-center">
-                <span className="text-6xl font-bold text-primary">MR</span>
-              </div>
+          <div className="w-80 h-80 mx-auto relative">
+            {/* Glow background */}
+            <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl" />
+        
+            {/* Image container */}
+            <div className="relative w-full h-full rounded-full bg-secondary border-2 border-primary/30 overflow-hidden flex items-center justify-center">
+              <img src="/images/img-5787.jpeg" alt="Profile" className="w-full h-full object-cover rounded-full"/>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
