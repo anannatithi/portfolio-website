@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Linkedin, Gitlab as GitLab, Mail } from "lucide-react"
+import { ArrowRight, Linkedin, Gitlab as GitLab, Github, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
@@ -36,9 +36,18 @@ export function HeroSection() {
 
             <div className="flex items-center gap-4 pt-4">
               <Link
+                href="https://github.com/anannatithi"
+                target="_blank"
+                className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="GitHub"
+              >
+                <Github size={20} />
+              </Link>
+              <Link
                 href="https://linkedin.com/in/musfika-rahman"
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
               </Link>
@@ -46,12 +55,14 @@ export function HeroSection() {
                 href="https://gitlab.com/ananna.tithi"
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="GitLab"
               >
                 <GitLab size={20} />
               </Link>
               <Link
                 href="mailto:musfika.ananna2019@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
+                aria-label="Email"
               >
                 <Mail size={20} />
               </Link>

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Linkedin, Gitlab as GitLab, Mail } from "lucide-react"
+import { Linkedin, Gitlab as GitLab, Github, Mail } from "lucide-react"
 
 export function Footer() {
   return (
@@ -14,6 +14,14 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-4">
+            <Link
+              href="https://github.com/anannatithi"
+              target="_blank"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="GitHub"
+            >
+              <Github size={18} />
+            </Link>
             <Link
               href="https://linkedin.com/in/musfika-rahman"
               target="_blank"
