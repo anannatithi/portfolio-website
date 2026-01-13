@@ -129,24 +129,6 @@ export function ContactSection() {
                 </a>
               ))}
             </div>
-
-            <div className="p-6 rounded-lg bg-card border border-border">
-              <h3 className="text-lg font-semibold text-foreground mb-4">Achievements</h3>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>Co-authored paper: "Pregnant Women's Mood Swings Study"</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>Presented at IMCOM 2019 – Phuket, Thailand</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span>National Mobile App Trainee – ICT Division, Bangladesh</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
