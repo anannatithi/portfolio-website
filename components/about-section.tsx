@@ -50,13 +50,6 @@ export function AboutSection() {
             </p>
           </div>
 
-          <div className="flex justify-center lg:justify-end items-center">
-            <div className="relative w-56 h-56 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl">
-              <Image src="/images/img-5787.jpeg" alt="Musfika Rahman" fill className="object-cover object-top" />
-            </div>
-          </div>
-        </div>
-
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Experience */}
           <div>
